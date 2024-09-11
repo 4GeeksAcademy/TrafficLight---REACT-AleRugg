@@ -10,3 +10,83 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.wrapper { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangleDiv {
+    width: 100px;
+    height:  60px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: purple;
+    margin-bottom: 10px;
+    font-size: 60px;
+    
+}
+.lightBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 400px;
+    background-color: rgb(39, 37, 37);
+    border-radius: 20px;
+    padding: 20px;
+    
+
+}
+
+
+.circleDiv1 {
+
+        width: 100px;
+        height:  100px;
+        background-color: red;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+
+      .circleDiv2 {
+
+        width: 100px;
+        height:  100px;
+        background-color:  yellow;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+
+      .circleDiv3 {
+
+        width: 100px;
+        height:  100px;
+        background-color: green;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+
+      .tube {
+        background-color: rgb(39, 37, 37);
+        width: 50px;
+        height: 250px;
+       border-bottom-right-radius: 10px ;
+       border-bottom-left-radius: 10px ;
+      
+      }
