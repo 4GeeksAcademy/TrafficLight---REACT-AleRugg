@@ -26,7 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: purple;
+    color: rgb(12, 7, 7);
     margin-bottom: 10px;
     font-size: 60px;
     
@@ -56,6 +56,9 @@
         justify-content: center;
         align-items: center;
         color: white;
+        
+           
+      
       }
 
       .circleDiv2 {
@@ -88,5 +91,53 @@
         height: 250px;
        border-bottom-right-radius: 10px ;
        border-bottom-left-radius: 10px ;
+       
       
       }
+
+      .btn {
+        width: 200px;
+        height: 60px;
+        background-color: black;
+        color: aliceblue;
+        border-radius:  10px;
+        
+      }
+
+      .buttonsWrapper {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+      }
+
+      .redBtn, .yellowBtn, .greenBtn, .newLightBtn {
+        margin: 10px;
+        background-color: black;
+        color: aliceblue;
+        height: 60px;
+        width: 100px;
+        text-align: center;
+        text-justify: auto;
+        cursor: pointer;
+       
+      }
+
+      .boxShadow {
+        box-shadow: 0px 0px 10px 10px rgba(210, 245, 12, 5);
+      }
+
+      .newColor {
+        background-color: blueviolet;
+      }
+
+
+      body {
+        background-color: brown;
+
+        object-fit: fill;
+        background-repeat: no-repeat;
+      }
+      
